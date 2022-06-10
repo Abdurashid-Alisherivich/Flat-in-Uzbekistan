@@ -1,0 +1,84 @@
+.contactWrapper
+{
+    padding: 2.5rem;
+    padding-bottom: unset !important;
+}
+
+.titleOfCntact
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+}
+
+.smallTeaxtOfContact
+{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.9;
+    color: #8c8c8c !important;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contactImage
+{
+    width: 444.98px;
+    height: 331.56px;
+}
+
+.contactInputs
+{
+    width: 444.98px;
+    height: 50px;
+    background-color: #f3f3f3;
+    border: unset !important;
+}
+.contactTextArea
+{
+    width: 444.98px;
+    height: 180px;
+    background-color: #f3f3f3;
+    border: unset !important;  
+}
+
+/* Start Media Query */
+@media screen and (max-width: 480px) {
+    .contactWrapper {
+        padding: unset;
+    }
+
+    .contactInputs
+    {
+        width: 100%;
+    }
+    .contactTextArea
+    {
+        width: 100%;
+    }
+
+    .contactImage
+    {
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1368px) and (min-width: 912px) 
+  {
+    .contactImage
+    {
+        width: 360px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) and (min-width: 768px) 
+  {
+    .contactImage
+    {
+        width: 340px;
+    }
+  }
