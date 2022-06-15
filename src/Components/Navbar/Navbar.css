@@ -3,3 +3,9 @@
     width: 10%px;
     height: 40px;
 }
+
+.mb-3
+{
+    position: fixed !important;
+    width: 100%;
+}

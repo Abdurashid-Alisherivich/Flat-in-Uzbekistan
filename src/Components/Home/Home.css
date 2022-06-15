@@ -1,0 +1,12 @@
+.homeWrapper
+{
+    padding-top: 10%;
+}
+
+/* Start Media Query */
+@media screen and (max-width: 480px) {
+    .homeWrapper
+    {
+        padding-top: 20%;
+    }
+}
