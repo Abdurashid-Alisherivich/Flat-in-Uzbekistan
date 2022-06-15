@@ -1,0 +1,13 @@
+.signInWrapper
+{
+    padding: 9%;
+}
+
+/* Start Media Query */
+@media screen and (max-width: 480px) {
+    .signInWrapper
+    {
+        padding-top: 20%;
+    }
+    
+  }

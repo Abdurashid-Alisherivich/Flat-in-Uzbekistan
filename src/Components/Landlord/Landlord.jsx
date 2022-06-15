@@ -10,7 +10,7 @@ const uploader = new Uploader({
 
 export default function Landlord() {
     return (
-        <div className="landlordWrapper">
+        <div className="landlordWrapper container">
             <h1 className="landlordH1">
                 Iltimos <b>Uy-Joy</b>ingiz haqidagi to'liq malumotlarni kiriting!
             </h1>
