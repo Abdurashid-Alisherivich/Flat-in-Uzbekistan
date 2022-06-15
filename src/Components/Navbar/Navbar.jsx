@@ -25,8 +25,8 @@ function NavbarPage() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1">Bosh Sahifa</Nav.Link>
-                <Nav.Link href="#action2">Biz Haqimizda</Nav.Link>
+                <Nav.Link href="home">Bosh Sahifa</Nav.Link>
+                <Nav.Link href="about">Biz Haqimizda</Nav.Link>
                 <Nav.Link href="aloqa">Aloqa</Nav.Link>
               </Nav>
               <Form className="d-flex">

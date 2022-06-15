@@ -10,7 +10,7 @@ export default function Contact() {
                     <div className="col-md-6 col-sm-12">
                         <h3 className='titleOfCntact'>Biz bilan aloqa!</h3>
                         <p className='smallTeaxtOfContact'>
-                            Siz qulay sharoitlarga ega <b>UY-JOY</b> izlayapsizmi? <br /> Unday bolsa siz to'g'ri manzildasiz!
+                            Siz qulay sharoitlarga ega <b>UY-JOY</b> izlayapsizmi? <br /> Unday bo'lsa siz to'g'ri manzildasiz!
                         </p>
                         <img className='contactImage' src={contactImage} alt="Have a img" />
                     </div>
@@ -21,7 +21,7 @@ export default function Contact() {
                             <input type="text" className="form-control contactInputs" placeholder="Telefon" aria-label="phone" aria-describedby="basic-addon1" />
                             <textarea class="form-control contactTextArea my-3" placeholder='Xabar yuboring' aria-label="With textarea"></textarea>
                         </div>
-                        <button type="button" class="btn btn-dark my-3">Xabar yuborish</button>
+                        <button type="submit" class="btn btn-dark my-3">Xabar yuborish</button>
                     </div>
                 </div>
             </div>
