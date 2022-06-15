@@ -77,16 +77,13 @@
 {
     width: 100%;
     height: 250px;
-    background-color: #edece6;
-    margin-bottom: 5%;
 }
 .fifthSentralFrame
 {
-    position: absolute;
     margin-top: 5.5%;
-    width: 85%;
+    width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #edece6;
 }
 .aboutBtn
 {

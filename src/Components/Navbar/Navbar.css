@@ -4,8 +4,17 @@
     height: 40px;
 }
 
-.mb-3
+.navbarSticyRes
 {
     position: fixed !important;
     width: 100%;
+}
+
+.shadow-0 .dropdown-toggle
+{
+    color: #ffffff;
+}
+.registrNavbar
+{
+    margin-left: 0.5%;
 }

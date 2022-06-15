@@ -10,9 +10,9 @@ import './Navbar.css';
 function NavbarPage() {
   return (
     <>
-      <Navbar bg="white" expand="lg" className="mb-3">
+      <Navbar bg="white" expand="lg" className="mb-3 navbarSticyRes">
         <Container fluid>
-          <Navbar.Brand href="#"><img className='logoCom' src={logoCom} alt="Img" /></Navbar.Brand>
+          <Navbar.Brand href="/home"><img className='logoCom' src={logoCom} alt="Img" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Offcanvas
             id="responsive-navbar-nav"
@@ -20,14 +20,14 @@ function NavbarPage() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id="responsive-navbar-nav">
-              <img className='logoCom' src={logoCom} alt="" />
+                <img className='logoCom' src={logoCom} alt="" />
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="home">Bosh Sahifa</Nav.Link>
-                <Nav.Link href="about">Biz Haqimizda</Nav.Link>
-                <Nav.Link href="aloqa">Aloqa</Nav.Link>
+                <Nav.Link href="/home">Bosh Sahifa</Nav.Link>
+                <Nav.Link href="/about">Biz Haqimizda</Nav.Link>
+                <Nav.Link href="/aloqa">Aloqa</Nav.Link>
               </Nav>
               <Form className="d-flex">
                 <Form.Control
@@ -38,6 +38,16 @@ function NavbarPage() {
                 />
                 <Button variant="outline-success">Qidiruv</Button>
               </Form>
+              
+            <div className="btn-group shadow-0 registrNavbar">
+              <button type="button" className="btn bg-dark btn-link dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+                Registration
+              </button>
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="/signUp">Sign Up</a></li>
+                <li><a className="dropdown-item" href="/signIn">Sign In</a></li>
+              </ul>
+            </div>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>

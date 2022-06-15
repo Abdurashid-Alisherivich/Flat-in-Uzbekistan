@@ -1,9 +1,13 @@
 import React from 'react';
 import contactImage from '../Assets/ContactImage.svg';
+import Footer from '../Footer/Footer';
+import NavbarPage from '../Navbar/Navbar';
 import './Contact.css';
 
 export default function Contact() {
     return (
+        <div>
+        <NavbarPage />
         <div className="contactWrapper">
             <div className="container">
                 <div className="row">
@@ -25,6 +29,8 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
+            <Footer />
+        </div>
         </div>
     )
 }
